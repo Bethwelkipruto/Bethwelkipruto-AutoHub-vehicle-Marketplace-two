@@ -113,8 +113,8 @@
   footer {
     background-color: darkslategray;
     text-align: center;
-    color: color-mix(in srgb, color percentage, color percentage);
-    padding: 1rem 0;
+    color: whitesmoke;
+    padding: 2rem 0;
     margin-top: 3rem;
     font-size: 0.9rem;
   }
