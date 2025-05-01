@@ -2,12 +2,12 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color:darkgray ;
+    background-color:rgba(88, 85, 85, 0.461);
   }
   
   
   header {
-    background-color: #1a1a1a;
+    background-color:black;
     color: green;
     padding: 3rem;
   }
@@ -32,7 +32,7 @@ body {
   }
   
   nav a {
-    color: white;
+    color:dark:black;
     text-decoration: none;
   }
   
@@ -103,8 +103,8 @@ body {
   }
   
   footer {
-    background-color: #1a1a1a;
-    color: white;
+    background-color:rgba(92, 98, 98, 0.596);
+    color: black;
     text-align: center;
     padding: 3rem;
     margin-top: 2rem;
