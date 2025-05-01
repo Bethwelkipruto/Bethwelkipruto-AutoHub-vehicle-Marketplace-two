@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Seller</title>
+  <link rel="stylesheet" href="./styles/contact-form.css" />
+</head>
+<body>
+  <header>
+    <h1>Contact the Seller</h1>
+    <nav>
+      <h1>AutoHub </h1>
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="cars.html">All Cars</a></li>
+          <li><a href="contact.html">Contact Seller</a></li>
+          <li><a href="About Us.html">About Us</a></li>
+      </ul>
+  </nav>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Send a Message</h2>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <input type="text" id="phone" placeholder="Phone Number" required />
+        <input type="text" id="car" placeholder="Car you are intrested " required />
+        <button type="submit">Send Message</button>
+      </form>
+      <p id="confirmation-message" style="display:none; color: green; margin-top: 10px;"></p>
+    </section>
+
+    <section class="table-section">
+      <h2>Contact Table</h2>
+      <table id="contact-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Vehicle Ads by Bethwel.kc</p>
+  </footer>
+
+  <script src="./src/script.js"></script>
+</body>
+</html>
