@@ -17,10 +17,12 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    color: aliceblue;
   }
   
   nav h1 {
     margin: 0;
+    color: green;
   }
   
   nav ul {
@@ -29,15 +31,17 @@ body {
     gap: 1rem;
     padding: 0;
     margin: 0;
+    color: green;
   }
   
   nav a {
-    color:dark:black;
-    text-decoration: none;
+    color: cadetblue
+    text-decoration: ;
   }
   
   nav a:hover {
-    text-decoration: underline;
+    color: aquamarine;
+    text-decoration:solid;
   }
   
   .hero {
@@ -48,7 +52,7 @@ body {
   
   .hero h2 {
     margin-bottom: 0.5rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   .team {
