@@ -1,96 +1,99 @@
+@charset "UTF-8";
 
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
- 
-  header {
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+header {
     background-color: #1a1a1a;
     padding: 1rem 2rem;
-  }
-  
-  nav {
+}
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-  }
-  
-  .logo {
+}
+
+.logo {
     color: #4caf50;
     font-size: 1.8rem;
     font-weight: bold;
-  }
-  
-  .nav-links {
+}
+
+.nav-links {
     list-style: none;
     display: flex;
     gap: 1.2rem;
     margin: 0;
     padding: 0;
-  }
-  
-  .nav-links li a {
+}
+
+.nav-links li a {
     color: white;
     text-decoration: none;
     font-weight: 500;
-  }
-  
-  .nav-links li a:hover,
-  .nav-links li a.active {
-    color: #4caf50;
-  }
-  
+    transition: color 0.3s ease;
+}
 
-  .about-container {
-    background: black ;
+.nav-links li a:hover,
+.nav-links li a.active {
+    color: #4caf50;
+}
+
+.about-container {
+    background: url('../images/background.jpg') center/cover no-repeat;
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .overlay {
-    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 40px;
     border-radius: 12px;
     color: #fff;
     max-width: 750px;
     margin: 2rem;
-  }
-  
-  .content h1 {
+    backdrop-filter: blur(5px);
+}
+
+.content h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
     color: #f9d342;
-  }
-  
-  .content h2 {
+}
+
+.content h2 {
     margin-top: 25px;
     color: #ffdd57;
-  }
-  
-  .content p {
+}
+
+.content p {
     font-size: 1.1rem;
     line-height: 1.6;
-  }
-  
+    margin-bottom: 1rem;
+}
+
 footer {
-  background: #333;
-  color: white;
-  padding: 15px;
-  text-align: center;
+    background: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
 }
 
 footer a {
-  color: white;
-  text-decoration: none;
-  margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
 }
 
 footer a:hover {
-  color: #00bcd4;
+    color: #00bcd4;
 }
